@@ -5,11 +5,11 @@ const Enjoy = () => {
   return (
     <div className='border-b-8 border-gray-700'>
       <div >
-          <h1></h1>
-          <p></p>
+          <h1>Enjoy on your TV</h1>
+          <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
       </div>
       <div>
-        <img src="" alt="" />
+        <img src={tv} alt="tv" />
       </div>
     </div>
   )
