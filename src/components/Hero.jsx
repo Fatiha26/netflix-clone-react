@@ -15,8 +15,8 @@ const Hero = () => {
             <p className='text-2xl mb-5'>Watch anywhere. Cancel anytime.</p>
             <p className='text-xl mb-5'>Ready to watch? Enter your email to create or restart your membership.</p>
         </div>
-        <div className='flex items-center pl-80 mb-12'>
-            <input type="text" placeholder='Email address' className='w-96 px-5 py-5 border border-slate-100 bg-transparent rounded-md'/>
+        <div className='flex items-center pl-80'>
+            <input type="text" placeholder='Email address' className='w-96 px-5 py-5 border border-slate-100 bg-transparent rounded-md '/>
             <a href="#" className='px-5 py-4 rounded-lg bg-red-600 text-2xl font-bold ml-2 hover:bg-red-700 transition duration-75'> Get Started <i className="fa-solid fa-angle-right ml-4"></i></a>
         </div>
     </div>
