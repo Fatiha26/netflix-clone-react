@@ -6,13 +6,13 @@ const Mfaq = ({question, answer}) =>{
    
     return(
         <>
-            <div className="flex items-center justify-between bg-slate-500 mb-4 px-8 pt-4">
-            <p className='text-3xl mb-8'>{question}</p>
-            <p onClick={() => setShow(!show)}>
-               {show ? <i className="fa-solid-2x fa-minus" /> : <i className="fa-solid fa-plus"></i>}
+            <div className="flex items-center justify-between bg-slate-800 mb-2 px-8">
+            <p className='text-2xl text-justify'>{question}</p>
+            <p onClick={() => setShow(!show)} className='py-8 px-8'>
+               {show ? <i className="fa-solid fa-x fa-xl" /> : <i className="fa-solid fa-plus  fa-xl"></i>}
             </p>
             </div>
-            { show && <p className=''>{answer}</p>}
+            { show && <p className='text-md py-2 px-4 text-justify bg-slate-800 mb-2'>{answer}</p>}
         </>
     )
 }

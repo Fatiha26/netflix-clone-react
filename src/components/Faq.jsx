@@ -5,7 +5,7 @@ const Faq = () => {
     const [data, setData] = useState(quesAns);
   return (
     <div className='border-b-8 border-gray-700 gap-20 bg-black py-16 flex items-center flex-col'>
-       <h1 className='text-5xl font-extrabold mb-8'>Frequently Asked Questions</h1>
+       <h1 className='text-5xl font-extrabold'>Frequently Asked Questions</h1>
 
        <div className='w-1/2'>
         <section>
