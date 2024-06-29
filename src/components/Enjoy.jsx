@@ -1,6 +1,5 @@
 import React from 'react'
 import tv from "../assets/image/tv.png"
-
 const Enjoy = () => {
   return (
     <div className='border-b-8 border-gray-700 grid grid-cols-2 gap-20 bg-black py-16'>
