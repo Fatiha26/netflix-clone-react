@@ -4,6 +4,7 @@ import Enjoy from './components/Enjoy'
 import Download from './components/Download'
 import Watch from './components/Watch'
 import Kids from './components/Kids'
+import Faq from './components/Faq'
 import Footer from './components/Footer'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Download />
       <Watch />
       <Kids />
+      <Faq />
       <Footer />
     </>
   )
