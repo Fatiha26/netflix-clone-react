@@ -7,7 +7,7 @@ const Watch = () => {
         <h1 className='text-6xl font-extrabold mb-8'>Watch everywhere</h1>
         <p className='text-2xl mb-8'>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
     </div>
-  </div>
+   </div>
   )
 }
 
